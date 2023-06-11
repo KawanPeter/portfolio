@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F56F00;
+    --cor-terciaria: #F6F6F6;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.titulo-destaque {
+    color: var(--cor-secundaria);
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo{
+    font-size: 24px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    font-weight: 400;    ;
+}
+
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+}
+
+.apresentacao__links__link:hover{
+    background-color: var(--cor-hover);
+}
+
+.foto__perfil{
+    width: 490px;
+    height: 555px;
+    border: 4px solid var(--cor-secundaria);
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.nome:hover{
+    color: #22D4FD;
+}
+
+.rodape{
+    padding: 10px;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+    background-color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.curriculo {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curriculo__conteudo{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.curriculo__conteudo__curriculo__titulo{
+    font-family: var(--fonte-primaria);
+    font-size: 36px;
+}
+
+.curriculo__conteudo__curriculo__texto{
+    font-size: 24;
+    font-family: var(--fonte-secundaria);
+}
+
+.curriculo__conteudo__titulo{
+    font-family: var(--fonte-primaria);
+    font-size: 30px;
+}
+
+.curriculo__conteudo__subtitulo{
+    font-size: 24;
+    font-family: var(--fonte-secundaria);
+}
+
+.cargo{
+    color: var(--cor-secundaria);
+}
+
+.curriculo__conteudo__experiencia__descricao{
+    font-size: 24;
+    font-family: var(--fonte-secundaria);
+    list-style-type: disc;
+}
+
+.curriculo__conteudo__estudos__descricao{
+    font-size: 24;
+    font-family: var(--fonte-secundaria);
+}
+
+.instituicao__nome{
+    font-size: 20px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
